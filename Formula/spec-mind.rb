@@ -1,7 +1,7 @@
 class SpecMind < Formula
   desc "Convert OpenAPI and AsyncAPI specs to compact, LLM-friendly .mind format"
   homepage "https://github.com/msegoviadev/spec-mind"
-  version "0.4.3"
+  version "0.4.4"
   license "MIT"
   head "https://github.com/msegoviadev/spec-mind.git", branch: "main"
 
