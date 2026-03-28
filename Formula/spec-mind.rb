@@ -1,7 +1,7 @@
 class SpecMind < Formula
   desc "Convert OpenAPI and AsyncAPI specs to compact, LLM-friendly .mind format"
   homepage "https://github.com/msegoviadev/spec-mind"
-  version "0.3.1"
+  version "0.4.1"
   license "MIT"
   head "https://github.com/msegoviadev/spec-mind.git", branch: "main"
 
@@ -13,22 +13,22 @@ class SpecMind < Formula
   on_macos do
     on_arm do
       url "https://github.com/msegoviadev/spec-mind/releases/download/v#{version}/spec-mind-darwin-arm64"
-      sha256 "PLACEHOLDER_DARWIN_ARM64"
+      sha256 "Not"
     end
     on_intel do
       url "https://github.com/msegoviadev/spec-mind/releases/download/v#{version}/spec-mind-darwin-x64"
-      sha256 "PLACEHOLDER_DARWIN_X64"
+      sha256 "Not"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/msegoviadev/spec-mind/releases/download/v#{version}/spec-mind-linux-x64"
-      sha256 "PLACEHOLDER_LINUX_X64"
+      sha256 "Not"
     end
     on_arm do
       url "https://github.com/msegoviadev/spec-mind/releases/download/v#{version}/spec-mind-linux-arm64"
-      sha256 "PLACEHOLDER_LINUX_ARM64"
+      sha256 "Not"
     end
   end
 
