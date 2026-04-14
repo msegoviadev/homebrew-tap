@@ -1,7 +1,7 @@
 class SpecMind < Formula
   desc "Convert OpenAPI and AsyncAPI specs to compact, LLM-friendly .mind format"
   homepage "https://github.com/msegoviadev/spec-mind"
-  version "0.5.1"
+  version "0.5.2"
   license "MIT"
   head "https://github.com/msegoviadev/spec-mind.git", branch: "main"
 
@@ -13,22 +13,22 @@ class SpecMind < Formula
   on_macos do
     on_arm do
       url "https://github.com/msegoviadev/spec-mind/releases/download/v#{version}/spec-mind-darwin-arm64"
-      sha256 "fde3ee293ae5212527051a8c7cd630036681cc89fcab8cecb50f8ab093b0ee9d"
+      sha256 "b90eaf7df12a93d3656c95e7cb89ac19570dce754685cb9c04840b983df06ec3"
     end
     on_intel do
       url "https://github.com/msegoviadev/spec-mind/releases/download/v#{version}/spec-mind-darwin-x64"
-      sha256 "cef3ebb75cb3e9c629d099d103b77633b327e6bcf2efe53b9c648d43419036e5"
+      sha256 "8c30647b59224522363512677cfc8f1af97c8006c8d6442910fbdd7e82b517f6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/msegoviadev/spec-mind/releases/download/v#{version}/spec-mind-linux-x64"
-      sha256 "a1ea6c3fec6782937c9c7f6b1972c5d795d6f96464d5d7501d00a76bcb4b414f"
+      sha256 "e8dd626e33fbbab196e00fbc75d9643bef5b463b81e89b0efacd45214dbaa311"
     end
     on_arm do
       url "https://github.com/msegoviadev/spec-mind/releases/download/v#{version}/spec-mind-linux-arm64"
-      sha256 "bfcede0a54562ad5826fddf40bcee1cafee9d0d618b17bcb7e94a8fd6883d3e8"
+      sha256 "ef2d6e886ff6820a93680db163122b22b752986ac0d58b454110d3f3d3d11adc"
     end
   end
 
