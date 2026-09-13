@@ -1,29 +1,29 @@
 class Termurl < Formula
   desc "Terminal client for Hurl collections with an agent-friendly headless CLI"
   homepage "https://github.com/msegoviadev/termurl"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
   depends_on "hurl"
 
   on_macos do
     on_arm do
-      url "https://github.com/msegoviadev/termurl/releases/download/v0.3.0/termurl-darwin-arm64"
-      sha256 "b2e8597356d7c47bbc11ddccb7ca512cbf66e0afd9b056230b58f3f1ac698cbe"
+      url "https://github.com/msegoviadev/termurl/releases/download/v0.4.0/termurl-darwin-arm64"
+      sha256 "28f3d7ea5b24bd4dbdc301a2a7647c8dee9baebf4092192d84793811b065afa5"
     end
     on_intel do
-      url "https://github.com/msegoviadev/termurl/releases/download/v0.3.0/termurl-darwin-x64"
-      sha256 "159b632b6c396ca1151d43e55052b67687d3af7e5a758109050cf91f3217b00e"
+      url "https://github.com/msegoviadev/termurl/releases/download/v0.4.0/termurl-darwin-x64"
+      sha256 "31af495335a87a717b1d392fb6525a65953dc503017dd33d494c106543a2fa02"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/msegoviadev/termurl/releases/download/v0.3.0/termurl-linux-arm64"
-      sha256 "d58e623770e4c199014dc4fee9cd90c4b017f6f7beecc3541704b5043a1a8e41"
+      url "https://github.com/msegoviadev/termurl/releases/download/v0.4.0/termurl-linux-arm64"
+      sha256 "b09424d54fcaf24b2f9bebd4b1fa8bd8d275e657021741164d5e351b01538fec"
     end
     on_intel do
-      url "https://github.com/msegoviadev/termurl/releases/download/v0.3.0/termurl-linux-x64"
-      sha256 "5998a9d9abc76866a7ceec85fc482c752e44b97ed3f878b658ab04f194cbf5ca"
+      url "https://github.com/msegoviadev/termurl/releases/download/v0.4.0/termurl-linux-x64"
+      sha256 "8d503c23d3d27491c210acee8781e85ed0d82b3f14ed456244aa56d8d7591ea2"
     end
   end
 
